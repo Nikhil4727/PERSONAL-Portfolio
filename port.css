@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    
+}
+/* .left{
+    width: 190px;
+    height: 100vh;
+    position: fixed;
+   
+} */
+
+
+.left {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 200px; 
+    height: 100%;
+    background-color: #f4f4f4;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    padding: 20px;
+}
+
+.photo {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content:end; 
+    margin-left: -60px;
+}
+
+.photo img {
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%;
+    border: 5px solid cadetblue; 
+    object-fit:fill; 
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    transition: background-color  ease, box-shadow  ease;
+   
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.item:hover {
+    background-color: #f0f0f0; /* Change this to your desired background color */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Adds an inset shadow on hover */
+}
+
+.item ion-icon {
+    font-size: 20px;
+}
+
+.item span {
+    font-size: 14px;
+}
+
+
+
+
+.grid_con_card img{
+    width: 190px;
+    height: 150px;
+}
+.right{
+    width: 100%;
+    padding-left: 200px;
+}
+.center{
+
+    background-color: cadetblue;
+    /* border: 2px solid red; */
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    
+        
+}
+.name{
+    font-size:3rem;
+    /* margin: 1.78rem 0 1.424rem 0; */
+    height: 10px;
+    padding: 80px;
+
+    /* border: 2px solid yellow; */
+  
+    color: white;
+}
+.intro{
+    margin: 50px;
+    height: 40px;
+    font-size: 1.64rem;
+    padding-left: 35px;
+    padding-top: 20px;
+    /* border: 2px solid green; */
+    color: white;
+
+}
+
+.social-icon {
+    list-style-type: none;
+    padding-left: 25px;
+    padding-top: 20px;
+    margin: 80px;
+    display: flex; 
+    gap: 20px;
+    /* border: 2px solid blue; */
+}
+
+.social-icon li {
+    display: flex;
+    align-items: center; 
+}
+
+.social-icon ion-icon {
+    font-size: 30px; 
+}
+
+.social-icon a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.Tabout
+{
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 3rem;
+    background-color: #008073 !important;
+    color: white;
+}
+.Eabout
+{
+    background-color: white;
+    font-size: 1.5rem;
+    padding: 35px;
+    
+}
+.Eabout ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    line-height: 2.88rem;
+    box-shadow: 0px 0px 5px rgb(186, 184, 184);
+    padding:50px;
+
+}
+
+.Tskills
+{
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 3rem;
+    background-color: #008073 !important;
+    color: white;
+}
+.Eskills
+{
+    padding: 20px;
+    background-color: white;
+}
+h2{
+    color:darksalmon;
+}
+.grid_con_card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0px 0px 5px rgb(186, 184, 184);
+    padding: 15px;
+}
+
+h2{
+    font-size: 2.28rem;
+}
+.gridcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.i2{
+    height: 100px;
+    padding: 20px;
+}
+
+.i3{
+    height: 100px;
+}
+
+.i4{
+    height: 100px;
+}
+
+.i5{
+    height: 100px;
+}
+
+
+.Teducation
+{
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 3rem;
+    background-color: #008073 !important;
+    color: white;
+}
+
+.E2education{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+    background-color: white;
+
+}
+.Eeducation
+{
+    height: 300px;
+    width: 400px;
+    box-shadow: 0px 0px 5px rgb(186, 184, 184);
+    padding: 20px;
+}
+
+.E1education
+{
+   
+    box-shadow: 0px 0px 5px rgb(186, 184, 184);
+    height: 350px;
+    width: 400px;
+    padding: 20px;
+}
+
+.Tcontact
+{
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    font-size: 3rem;
+    background-color: #008073 !important;
+    color: white;
+    
+}
+
+
+.social-icons {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.social-icons li {
+    margin-bottom: 20px; 
+    display: flex; 
+    align-items: center;
+}
+
+.social-icons ion-icon {
+    font-size: 60px; 
+    margin-right: 10px; 
+}
+
+.social-icons a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.social-icons li:last-child {
+    margin-bottom: 0; 
+}
+
+
+.social-icons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 0px 0px 5px rgb(186, 184, 184);
+    width: 18%;
+    padding: 10px;
+}
+
+.socialgrid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    padding-top: 25px;
+    
+}
